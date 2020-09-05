@@ -29,6 +29,6 @@ export default Component =>
         return null
       }
 
-      return <Component {...otherProps} />
+      return <Component {...otherProps} auth={auth}/>
     })
   )
