@@ -25,7 +25,7 @@ const PageHeader = () => (
   <header>
     <ul>
       {navItems.map(({ label, url }) => (
-        <li button key={url}>
+        <li key={url}>
           <Link to={url}>
             <span>{label}</span>
           </Link>
