@@ -15,3 +15,4 @@ const mapStateToProps = ({ firebase: { auth } }) => ({
 export default connect(mapStateToProps)(
   withRedirectOnNotAuth(MyAccountContainer)
 )
+ 
